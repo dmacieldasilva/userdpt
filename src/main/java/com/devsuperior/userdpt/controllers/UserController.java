@@ -27,8 +27,10 @@ public class UserController {
         User result = repository.save(user);
         return result;
     }
-    @PutMapping(value = "/{id}")
+/*    @PutMapping(value = "/{id}")
     public User update(@PathVariable Long id, @RequestBody User user){
         //User result = repository.update(id, user);
     }
+
+ */
 }
